@@ -13,4 +13,17 @@ public class Cart extends Light{
     public void setChargeTime(double chargeTime) {
         ChargeTime = chargeTime;
     }
+
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "ChargeTime=" + ChargeTime +
+                ", YeshManoa=" + YeshManoa +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }

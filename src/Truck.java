@@ -13,4 +13,17 @@ public class Truck extends Heavy{
     public void setMaxWeight(double maxWeight) {
         MaxWeight = maxWeight;
     }
+
+    @Override
+    public String toString() {
+        return "Truck{" +
+                "MaxWeight=" + MaxWeight +
+                ", HowManyVehiclesCanItTake=" + HowManyVehiclesCanItTake +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }

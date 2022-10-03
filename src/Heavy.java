@@ -18,6 +18,12 @@ public class Heavy extends Vehicles{
     public String toString() {
         return "Heavy{" +
                 "HowManyVehiclesCanItTake=" + HowManyVehiclesCanItTake +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
                 '}';
     }
 }
+

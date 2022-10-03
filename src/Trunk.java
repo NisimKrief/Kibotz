@@ -10,6 +10,20 @@ public class Trunk extends Truck{
         return HowManyThingsInIt;
     }
 
+    @Override
+    public String toString() {
+        return "Trunk{" +
+                "HowManyThingsInIt=" + HowManyThingsInIt +
+                ", MaxWeight=" + MaxWeight +
+                ", HowManyVehiclesCanItTake=" + HowManyVehiclesCanItTake +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
+
     public void setHowManyThingsInIt(int howManyThingsInIt) {
         HowManyThingsInIt = howManyThingsInIt;
     }

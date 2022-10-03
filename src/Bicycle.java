@@ -13,4 +13,17 @@ public class Bicycle extends Light {
     public void setHasBusket(boolean hasBusket) {
         HasBusket = hasBusket;
     }
+
+    @Override
+    public String toString() {
+        return "Bicycle{" +
+                "HasBusket=" + HasBusket +
+                ", YeshManoa=" + YeshManoa +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }

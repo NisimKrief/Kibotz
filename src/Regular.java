@@ -13,4 +13,16 @@ public class Regular extends Vehicles {
     public void setKamotNosim(int kamotNosim) {
         KamotNosim = kamotNosim;
     }
+
+    @Override
+    public String toString() {
+        return "Regular{" +
+                "KamotNosim=" + KamotNosim +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }

@@ -13,4 +13,16 @@ public class Light extends Vehicles{
     public void setYeshManoa(boolean yeshManoa) {
         YeshManoa = yeshManoa;
     }
+
+    @Override
+    public String toString() {
+        return "Light{" +
+                "YeshManoa=" + YeshManoa +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }

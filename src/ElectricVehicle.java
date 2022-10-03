@@ -13,4 +13,17 @@ public class ElectricVehicle extends Regular{
     public void setElectricFuelTankSize(double electricFuelTankSize) {
         ElectricFuelTankSize = electricFuelTankSize;
     }
+
+    @Override
+    public String toString() {
+        return "ElectricVehicle{" +
+                "ElectricFuelTankSize=" + ElectricFuelTankSize +
+                ", KamotNosim=" + KamotNosim +
+                ", VehicleId=" + VehicleId +
+                ", VehicleAge=" + VehicleAge +
+                ", VehicleWheelAmount=" + VehicleWheelAmount +
+                ", EgeOrKidon='" + EgeOrKidon + '\'' +
+                ", VehicleMezahamimPerMin=" + VehicleMezahamimPerMin +
+                '}';
+    }
 }
