@@ -15,6 +15,21 @@ public class Cart extends Light{
     }
 
     @Override
+    public double exhaust() {
+        return super.exhaust() / (getChargeTime() * 0.5);
+    }
+
+    public int hitchhikers(int anashimnosafim){
+        if (anashimnosafim >= 2){
+            System.out.println("Sorry I can take only 1");
+            anashimnosafim = 1;
+        }
+
+        return anashimnosafim;
+
+    }
+
+    @Override
     public String toString() {
         return "Cart{" +
                 "ChargeTime=" + ChargeTime +

@@ -15,6 +15,20 @@ public class Regular extends Vehicles {
     }
 
     @Override
+    public double exhaust() {
+        return super.exhaust() * 1.2;
+    }
+
+    public void noise(){
+        System.out.println("Vrrrrooooommm Vrrrroooom");
+    }
+
+    public int hitchhikers(int anashimnosafim){
+        return KamotNosim + anashimnosafim;
+
+    }
+
+    @Override
     public String toString() {
         return "Regular{" +
                 "KamotNosim=" + KamotNosim +

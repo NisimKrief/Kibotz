@@ -1,4 +1,4 @@
-public class Vehicles {
+public abstract class Vehicles {
     protected int VehicleId;
     protected int VehicleAge;
     protected int VehicleWheelAmount;
@@ -52,6 +52,12 @@ public class Vehicles {
     public void setVehicleMezahamimPerMin(double vehicleMezahamimPerMin) {
         VehicleMezahamimPerMin = vehicleMezahamimPerMin;
     }
+
+    public double exhaust() {
+        return getVehicleMezahamimPerMin() * 60;
+    }
+
+
 
     @Override
     public String toString() {
