@@ -1,6 +1,6 @@
 public class Kibbutz {
-    Vehicles[] rehavim = new Vehicles[500];
-    int kamotrehavimbakibutz;
+    protected Vehicles[] rehavim = new Vehicles[500];
+    protected int kamotrehavimbakibutz;
 
     public Kibbutz() {
         kamotrehavimbakibutz = 0;
