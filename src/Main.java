@@ -28,13 +28,17 @@ public class Main {
         }
         return sumkamotnosimlokolelnaag;
     }
-    public static double MaxChargeTime(Vehicles[] rehavim){
+    public static int MaxChargeTime(Vehicles[] rehavim){
         double maxchargetime = 0;
+        int carId = 0;
         for(int i = 0; i < rehavim.length; i++){
             if(rehavim[i] instanceof Cart){
-                maxchargetime = Math.max(maxchargetime, ((Cart) rehavim[i]).getChargeTime());
+                if(((Cart) rehavim[i]).getChargeTime() > maxchargetime){
+                    maxchargetime = ((Cart) rehavim[i]).getChargeTime();
+                    carId = rehavim[i].getVehicleId();
+                }
             }
         }
-        return maxchargetime;
+        return carId;
     }
 }
