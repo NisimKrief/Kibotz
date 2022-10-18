@@ -3,6 +3,7 @@ public class Kibbutz {
     int kamotrehavimbakibutz;
 
     public Kibbutz() {
+        kamotrehavimbakibutz = 0;
     }
     public void mosifrehev(Vehicles car){
         kamotrehavimbakibutz++;
